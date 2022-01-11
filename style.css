@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0 10vw;
+    background-color: white;
+}
+
+section{
+    background-color: white;
+}
+
+#section1{
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 40vh 5vh 1fr 15vh 5fr 1fr;
+    background-color: royalblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-transform: uppercase;
+    grid-row: 2;
+}
+
+#cv{
+    grid-row: 5;
+}
+
+#section1 a{
+    text-transform: uppercase;
+}
+
+#arrow{
+    grid-row: 6;
+}
