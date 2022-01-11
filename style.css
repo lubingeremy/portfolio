@@ -8,18 +8,6 @@ body{
     background-color: white;
 }
 
-section{
-    background-color: white;
-}
-
-#section1{
-    height: 100vh;
-    text-align: center;
-    display: grid;
-    grid-template-rows: 40vh 5vh 1fr 15vh 5fr 1fr;
-    background-color: royalblue;
-}
-
 a{
     text-decoration: none;
 }
@@ -27,6 +15,20 @@ a{
 h1{
     text-transform: uppercase;
     grid-row: 2;
+}
+
+section{
+    background-color: white;
+}
+
+/*___________Section 1___________*/
+
+#section1{
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 40vh 5vh 1fr 23vh 5fr 1fr;
+    background-color: royalblue;
 }
 
 #cv{
@@ -39,4 +41,22 @@ h1{
 
 #arrow{
     grid-row: 6;
+}
+
+/*___________Section 1___________*/
+
+#section2{
+    display: grid;
+    grid-template-rows: 30vh 1fr;
+    background-color: royalblue;
+
+    height: 75vh;
+    text-align: left;
+    background-color: rgb(127, 153, 230);
+    font-size: 2vw;
+}
+
+#section2 h2, h3{
+    grid-row: 2;
+    display: inline-block;
 }
