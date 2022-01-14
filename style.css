@@ -19,16 +19,22 @@ a{
 
 h1{
     text-transform: uppercase;
-    grid-row: 2;
-    font-size: max(5vw, 5vh);
+    font-size: max(4vw, 4vh);
     font-weight: 900;
     letter-spacing: -0.09em;
+    margin-bottom: 10px;
     
     position: sticky;
-    top: 0.1px;
+    top: 0.01px;
     background-color: white;
-    height: max(6vw, 6vh);
+    height: max(5vw, 5vh);
     width: 100%;
+}
+#section1 h1{
+    grid-row: 2;
+    font-size: max(5vw, 5vh);
+    height: max(6vw, 6vh);
+
 }
 
 section{
@@ -45,6 +51,8 @@ section{
     grid-template-rows: 40vh 5vh 1fr 23vh 5fr 1fr;
     /* background-color: royalblue; */
 }
+
+
 
 #section1 p{
     text-transform: uppercase;
@@ -82,14 +90,15 @@ section{
 }
 
 #section2 h4{
-    font-size: max(5.5vh, 3.5vw);
+    /* font-size: max(5.5vh, 3.5vw); */
+    font-size: max(2.7vh, 2.7vw);
     font-weight: 400;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
 }
 
 @media (max-width: 500px){
     #section2 h4{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     }
 }
 
@@ -105,7 +114,7 @@ section{
 }
 
 #big{
-    font-size: max(6.5vh, 5.5vw);
+    font-size: max(5.5vh, 5.5vw);
 }
 
 #bold{
@@ -131,11 +140,12 @@ section{
     flex-direction: column;
     /* background-color: rgb(121, 90, 90); */
     vertical-align: middle;
-    line-height: 0.9;
 }
 
 #section3 h2, h3{
     font-size: max(2.7vh, 2.7vw);
+    line-height: 0.95;
+
 }
 
 #section3 h2{
