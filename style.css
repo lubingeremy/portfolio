@@ -66,8 +66,7 @@ section{
 }
 
 #section2 h2, h3{
-    grid-row: 2;
-    display: inline-block;
+
 }
 
 #after-space{
@@ -82,4 +81,12 @@ section{
     background-color: rgb(74, 160, 84);
     height: 50vh;
     min-height: 300px;
+}
+
+#section3 div{
+    grid-row: 2;
+    /* display: flex; */
+    /* flex-direction: column; */
+    background-color: rgb(121, 90, 90);
+    /* vertical-align: middle; */
 }
