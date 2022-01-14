@@ -20,7 +20,7 @@ a{
 h1{
     text-transform: uppercase;
     grid-row: 2;
-    font-size: 5vw;
+    font-size: max(5vw, 5vh);
     font-weight: 900;
 }
 
@@ -88,7 +88,7 @@ section{
 }
 
 #section2 h3{
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
@@ -102,7 +102,7 @@ section{
     display: grid;
     grid-template-rows: 1fr auto 1fr;
     /* background-color: rgb(74, 160, 84); */
-    height: 75vh;
+    height: 80vh;
     min-height: 300px;
 }
 
@@ -112,18 +112,28 @@ section{
 }
 
 #section3 h4{
-    font-size: max(3.5vh, 3.5vw);
+    font-size: max(5.5vh, 3.5vw);
     font-weight: 400;
 }
 
-#section3 h4:nth-child(2){
-    font-size: max(4.8vh, 5.5vw);
+@media (max-width: 500px){
+    #section3 h4{
+    margin-bottom: 30px;
+    }
 }
 
-#section3 h4:nth-child(3){
+#section3 h4:nth-child(1){
+    font-size: max(5.5vh, 3.5vw);
+}
+
+#big{
+    font-size: max(7.85vh, 5.5vw);
+}
+
+#bold{
     font-weight: 700;
 }
-#section3 h4:nth-child(4){
+#light{
     font-weight: 275;
 }
 
@@ -132,7 +142,7 @@ section{
 #section4{
     display: grid;
     grid-template-rows: 1fr auto 1fr;
-    background-color: rgb(174, 43, 43);
+    /* background-color: rgb(174, 43, 43); */
     height: 50vh;
     min-height: 300px;
 }
