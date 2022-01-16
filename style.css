@@ -6,17 +6,32 @@
     box-sizing: border-box;         /* Opera/IE 8+ */
     
     --mbs: 15vh;
+    --bc: #dfe6e9;
 }
 
 html{
     scroll-behavior: smooth;
 }
 
+*:focus{
+    outline: none;
+}
+
+*:focus-visible{
+    border: 2px dotted red;
+}
+
 body{
     padding: 0 10vw;
-    background-color: white;
+    background-color: var(--bc);
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+}
+
+@media (min-width:600px){
+    body{
+        padding: 0 20vw;
+    }
 }
 
 a{
@@ -34,25 +49,32 @@ h1{
     height: max(6vw, 6vh);
     position: sticky;
     top: 0.01px;
-    background-color: white;
+    background-color: var(--bc);
     height: max(5vw, 5vh);
     width: 100%;
 }
 h2{
     text-transform: uppercase;
     font-size: max(4vw, 4vh);
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: -0.09em;
     margin-bottom: 10px;
     position: sticky;
     top: 0.01px;
-    background-color: white;
+    background-color: var(--bc);
+
     height: max(5vw, 5vh);
     width: 100%;
 }
 
+p{
+    font-size: max(2.3vh, 2.3vw);
+    font-weight: 400;
+}
+
 section{
-    background-color: white;
+    background-color: var(--bc);
+
 }
 
 /*___________Section 1___________*/
@@ -104,28 +126,10 @@ section{
     /* background-color: rgb(121, 90, 90); */
 }
 
-#section2 p{
-    /* font-size: max(5.5vh, 3.5vw); */
-    font-size: max(2.7vh, 2.7vw);
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
 @media (max-width: 500px){
-    #section2 h4{
+    #section2 p{
     margin-bottom: 10px;
     }
-}
-
-#section2 h4:nth-child(1){
-    font-size: max(5.5vh, 3.5vw);
-    position: sticky;
-    top: 0.1px;
-    background-color: white;
-    height: auto;
-    width: 100%;
-    /* text-transform: uppercase; */
-
 }
 
 #big{
@@ -157,15 +161,8 @@ section{
     /* background-color: rgb(121, 90, 90); */
 }
 
-#section3 p{
-    font-size: max(2.7vh, 2.7vw);
-    /* line-height: 0.95; */
-
-}
-
-#section3 .pre{
-    font-weight: 400;
-    text-transform: uppercase;
+#section3 h2, #section3 p{
+    text-align: right;
 }
 
 #section3 .suff{
