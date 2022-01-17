@@ -189,6 +189,10 @@ article{
     text-align: center;
 }
 
+article img{
+    border: solid black 1px;
+}
+
 article a{
     display: flex;
     flex-direction: column;
@@ -244,4 +248,8 @@ section5 p{
 }
 section5 a{
     margin-right: 10px;
+}
+
+.image-holder{
+    /* border: solid black 1px; */
 }
