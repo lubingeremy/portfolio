@@ -239,8 +239,14 @@ article a{
 section5{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     /* background-color: rgb(255, 255, 255); */
     margin-bottom: 10vh;
+    text-align: right;
+}
+
+section5 h2{
+    background-color: transparent;
 }
 
 section5 p{
