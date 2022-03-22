@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Portfolio
 To introduce my abilities in Web Development.
 
 Designed with Figma.
