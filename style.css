@@ -147,11 +147,11 @@ section{
         
         margin-bottom: 5vh;
     }
-    h3{
+    .projectTitle{
         font-size: max(2.3vw, 2.3vh);
         font-weight: 500;
-
         margin-bottom: 6px;
+        text-align: left;
     }
 
     article img{
