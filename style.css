@@ -34,7 +34,7 @@ body{
 /* responsive behavior */
 @media (min-width:600px){
     body{
-        padding: 0 20vw;
+        padding: 0 10vw;
     }
 }
 /*#####################*/
@@ -85,21 +85,22 @@ p{
 
 section{
     background-color: var(--bc);
+    height: 100vh;
+
 }
 
 /*___________Section 1___________*/
 
-section1{
+#section1{
     height: 100vh;
     min-height: 500px;
-
     text-align: center;
 
     display: grid;
     grid-template-rows: 40vh 5vh 1fr 23vh 5fr 1fr;
 }
 
-section1 p{
+#section1 p{
     font-size: max(2vh, 2vw);
     text-transform: uppercase;
 }
@@ -110,8 +111,8 @@ section1 p{
 
 /*___________Section 2___________*/
 
-section2{
-    height: auto;
+#section2{
+    /* height: auto; */
     min-height: 300px;
 
     margin-bottom: var(--mbs);
@@ -120,13 +121,13 @@ section2{
     grid-template-rows: 1fr auto 1fr;
 }
 
-section2 div{
+#section2 div{
     grid-row: 2;
 }
 
 /* Responsive behavior */
 @media (max-width: 500px){
-    section2 p{
+    #section2 p{
     margin-bottom: 10px;
     }
 }
@@ -147,8 +148,8 @@ section2 div{
 
 /*___________Section 3___________*/
 
-section3{
-    height: auto;
+#section3{
+    /* height: auto; */
     min-height: 300px;
     
     display: grid;
@@ -157,17 +158,17 @@ section3{
     margin-bottom: var(--mbs);
 }
 
-section3 div{
+#section3 div{
     grid-row: 2;
     display: flex;
     flex-direction: column;
 }
 
-section3 h2, section3 p{
+#section3 h2, #section3 p{
     text-align: right;
 }
 
-section3 .suff{
+#section3 .suff{
     font-weight: 600;
 
     margin-bottom: 3vh;
@@ -179,12 +180,12 @@ section3 .suff{
 
 /*___________Section 4___________*/
 
-section4{
+#section4{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 
-    height: auto;
+    /* height: auto; */
     min-height: 300px;
     
     margin-bottom: var(--mbs);
@@ -210,7 +211,7 @@ article a{
 }
 
 @media (min-width:600px){
-    section4{
+    #section4{
         height: auto;
         min-height: 300px;
 
@@ -235,7 +236,7 @@ article a{
 
         margin-right: 3vh;
     }
-    section4 a{
+    #section4 a{
         font-size: max(1.5vh, 1.5vw);
         font-weight: 400;
 
@@ -246,9 +247,11 @@ article a{
     }
 }
 
-section5{
+#section5{
+
     text-align: right;
 
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -256,13 +259,13 @@ section5{
     margin-bottom: 10vh;
 }
 
-section5 h2{
+#section5 h2{
     background-color: transparent;
 }
 
-section5 p{
+#section5 p{
     margin-bottom: 20px;
 }
-section5 a{
+#section5 a{
     margin-right: 10px;
 }
