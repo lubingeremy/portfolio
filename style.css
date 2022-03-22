@@ -85,7 +85,7 @@ p{
 
 section{
     background-color: var(--bc);
-    height: 100vh;
+    height: 70vh;
 
 }
 
@@ -127,6 +127,46 @@ section{
 @media (max-width: 500px){
     #section2 p{
     margin-bottom: 10px;
+    }
+}
+@media (min-width:600px){
+    section{
+        height: 100vh;
+    }
+    #section4{
+        height: auto;
+        min-height: 300px;
+
+        margin-bottom: var(--mbs);
+
+    }
+    article{
+        text-align: left;
+
+        width: 100%;
+        
+        margin-bottom: 5vh;
+    }
+    h3{
+        font-size: max(2.3vw, 2.3vh);
+        font-weight: 500;
+
+        margin-bottom: 6px;
+    }
+
+    article img{
+        float: left;
+
+        margin-right: 3vh;
+    }
+    #section4 a{
+        font-size: max(1.5vh, 1.5vw);
+        font-weight: 400;
+
+        width: fit-content;
+        
+        margin-bottom: 4px;
+
     }
 }
 /*#####################*/
@@ -183,8 +223,11 @@ section{
     justify-content: flex-start;
 
     min-height: 300px;
-    
+    height: auto;
+
     margin-bottom: var(--mbs);
+    background-color: red;
+
 }
 
 article{
@@ -206,43 +249,6 @@ article a{
     text-decoration: none;
 }
 
-@media (min-width:600px){
-    #section4{
-        height: auto;
-        min-height: 300px;
-
-        margin-bottom: var(--mbs);
-    }
-    article{
-        text-align: left;
-
-        width: 100%;
-        
-        margin-bottom: 5vh;
-    }
-    h3{
-        font-size: max(2.3vw, 2.3vh);
-        font-weight: 500;
-
-        margin-bottom: 6px;
-    }
-
-    article img{
-        float: left;
-
-        margin-right: 3vh;
-    }
-    #section4 a{
-        font-size: max(1.5vh, 1.5vw);
-        font-weight: 400;
-
-        width: fit-content;
-        
-        margin-bottom: 4px;
-
-    }
-}
-
 #section5{
 
     text-align: right;
@@ -253,6 +259,8 @@ article a{
     align-items: flex-end;
 
     margin-bottom: 10vh;
+
+    background-color: rebeccapurple;
 }
 
 #section5 h2{
