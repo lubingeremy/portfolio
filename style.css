@@ -92,7 +92,6 @@ section{
 /*___________Section 1___________*/
 
 #section1{
-    height: 100vh;
     min-height: 500px;
     text-align: center;
 
@@ -112,7 +111,6 @@ section{
 /*___________Section 2___________*/
 
 #section2{
-    /* height: auto; */
     min-height: 300px;
 
     margin-bottom: var(--mbs);
@@ -149,7 +147,6 @@ section{
 /*___________Section 3___________*/
 
 #section3{
-    /* height: auto; */
     min-height: 300px;
     
     display: grid;
@@ -185,7 +182,6 @@ section{
     flex-direction: column;
     justify-content: flex-start;
 
-    /* height: auto; */
     min-height: 300px;
     
     margin-bottom: var(--mbs);
