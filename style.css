@@ -226,7 +226,6 @@ section{
     height: auto;
 
     margin-bottom: var(--mbs);
-    background-color: red;
 
 }
 
@@ -260,7 +259,6 @@ article a{
 
     margin-bottom: 10vh;
 
-    background-color: rebeccapurple;
 }
 
 #section5 h2{
